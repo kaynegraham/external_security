@@ -7,16 +7,16 @@
 </h4>
 
 <div align="center">
-	<h1 align="center">External Security Bot - for FiveM Communities</h1>
-	<p align="center">External Security Bot was created in January of 2024 in discord.js v14 and is meant for use by FiveM Communities who wish to manage there users with one bot, This free & open-source project is constantly being updated and is always open to contributions from other developers.
+	<h1 align="center">External Bot - for FiveM Communities</h1>
+	<p align="center">External Bot was created in January of 2024 in discord.js v14 and is meant for use by FiveM Communities who wish to manage there users with one bot, This free & open-source project is constantly being updated and is always open to contributions from other developers.
 	</p>
 	
-  [Preview Video](https://youtube.com) | [Report Bug](https://github.com/kaynegraham/external_security/issues) | [Download Now](https://github.com/kaynegraham/external_security/releases)
+  [Preview Video](https://youtube.com) | [Report Bug](https://github.com/kaynegraham/external_bot/issues) | [Download Now](https://github.com/kaynegraham/external_bot/releases)
 </div>
 
 ## 🤖 Showcase
 
-Screenshots or videos of the External Security Bot in action:
+Screenshots or videos of the External Bot in action:
 
 <details>
   <summary><strong>Screenshots</strong></summary>
@@ -32,16 +32,17 @@ Screenshots or videos of the External Security Bot in action:
 - Multiple Advanced Commands
 
 ## :hammer_and_wrench: **Installation**
-1. Download Latest Version of Node.KS
-2. Download the Latest Version
-3. Configure the Bot in config.json
-4. Run installBot.bat
-5. Have Fun, Launch your Bot via runBot.bat
+1. Download the LTS Version of Node.JS
+2. Create a Discord Application and Invite it into your Discord Server [Setup Video Here](https://youtube.com)
+3. Download the Latest Version of External
+4. Configure the Bot in config.json
+5. Run installBot.bat
+6. Have Fun, Launch your Bot via runBot.bat
 
 
 ## Download
 
-Download the latest release [here](https://github.com/kaynegraham/external_security/releases).
+Download the latest release [here](https://github.com/kaynegraham/external_bot/releases).
 
 ## Support
 
