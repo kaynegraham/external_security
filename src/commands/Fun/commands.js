@@ -38,6 +38,26 @@ module.exports = {
         {
           name: "release [User]",
           value: "Gives all roles from member back and deletes channel",
+        },
+        {
+          name: "purge (Num of messages)",
+          value: "Delete previous messages, Default Number is 15",
+        },
+        {
+          name: "timeout [User] (Reason)",
+          value: "Timeouts a user",
+        },
+        {
+          name: "about",
+          value: "Provides Information about the External Security Bot",
+        },
+        {
+          name: "commands",
+          value: "Provides a List of All Commands",
+        },
+        {
+          name: "stats",
+          value: "Provide Statistics about this guild.",
         }
       )
       .setTimestamp()

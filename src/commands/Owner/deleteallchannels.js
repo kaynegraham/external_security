@@ -16,7 +16,7 @@ module.exports = {
         ephemeral: true,
       });
 
-    if (!interaction.id === ownerId)
+    if (!interaction.user.id === ownerId)
       return await interaction.reply({
         content: `You don't own this guild!`,
         ephemeral: true,
