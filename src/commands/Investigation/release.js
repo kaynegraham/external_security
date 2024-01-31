@@ -30,12 +30,11 @@ module.exports = {
     // Turn into Array
     roles = roles.match(/.{1,19}/g);
 
-    roles.forEach(function (role) {
-      member.roles.add(role, "Released from Coventry");
-    });
-
     if (member.id === topic) {
       // Give Back Roles
+      roles.forEach(function (role) {
+        member.roles.add(role, "Released from Coventry");
+      });
 
       interaction.reply({
         content: `User has been given roles back andd released!`,

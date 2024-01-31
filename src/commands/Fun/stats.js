@@ -30,22 +30,24 @@ module.exports = {
         },
         {
           name: "Members",
-          value: `${memberCount} members`,
+          value: `${memberCount} Members`,
           inline: true,
         },
         {
           name: "Channels",
-          value: `${channelCount} channels`,
+          value: `${channelCount} Channels`,
           inline: true,
         },
         {
           name: "Roles",
-          value: `${roleCount} roles`,
+          value: `${roleCount} Roles`,
           inline: true,
         }
       )
       .setColor("Blue")
-      .setTimestamp();
+      .setThumbnail(interaction.guild.iconURL())
+      .setTimestamp()
+      .setFooter({ text: `${interaction.guild.name} © 2024` });
 
     interaction.reply({
       embeds: [embed],

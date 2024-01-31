@@ -1,19 +1,21 @@
 const { SlashCommandBuilder, EmbedBuilder } = require("discord.js");
 const api = require("fivem");
+const { serverip, serverport } = require("../../config.json");
 
 module.exports = {
   data: new SlashCommandBuilder()
     .setName("players")
     .setDescription("Player List & Player Count"),
   async execute(interaction) {
-    const server = new api.Server("103.152.197.42:30120");
+    const server = new api.Server(`${serverip}:${serverport}`);
     const name = interaction.guild.name;
     const playerNames = [];
-    const players = await server.getPlayers();
+    let playerNum = 0;
     const playerList = await server.getPlayersAll();
     playerList.forEach((player) => {
+      playerNum += 1;
       playerNames.push(
-        `**Name:**${player.name},    **Player ID:**${player.id}`
+        `${playerNum}). **Name: **${player.name},    **Player ID:**${player.id}`
       );
     });
 
@@ -23,7 +25,7 @@ module.exports = {
       .setTimestamp()
       .setFooter({ text: `${interaction.guild.name} © 2024` })
       .setDescription(
-        `There are ${playerList.length} player(s):\n${playerNames.join(", \n")}`
+        `There are ${playerList.length} player(s):\n${playerNames.join("\n")}`
       );
 
     interaction.reply({ embeds: [playersEmbed] });

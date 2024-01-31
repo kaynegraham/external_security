@@ -35,7 +35,7 @@ module.exports = {
       console.clear();
       console.log(
         chalk.yellow(
-          figlet.textSync("Bot Status", { horizontalLayout: "full" })
+          figlet.textSync("External Security Bot", { horizontalLayout: "full" })
         )
       );
       console.log(chalk.magenta("----------------------------------"));
@@ -44,12 +44,7 @@ module.exports = {
       console.log(chalk.green(`Total Guilds: ${guildCount}`));
       console.log(chalk.red(`Bot Launch Time: ${new Date().toLocaleString()}`));
       console.log(chalk.blue(`Bot Version: ${botVersion}`));
-      console.log(
-        `Storage Used: ${Math.round((16777216000 - 1024) / 1024 / 1024)} MB`
-      );
-      console.log(`Total RAM: ${Math.round(16777216000 / 1024 / 1024)} MB`);
-      console.log(`CPU: Mac M1`);
-      console.log(chalk.red(`Bot Owner: ${botOwner}`));
+      console.log(chalk.red(`Bot Developer: devkayne`));
       console.log(chalk.red("----------------------------------"));
 
       const progressBar = new cliProgress.SingleBar(

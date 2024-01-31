@@ -8,7 +8,7 @@ module.exports = {
     const commandembed = new EmbedBuilder()
       .setTitle(`External Security Bot | Command List`)
       .setDescription(
-        `This bot was created by devkayne\n**Using Slash Commands:**\n[] = Required\n() = Optional`
+        `This bot was created by devkayne\nThere is also single-guild versions of the commands below\n**Using Slash Commands:**\n[] = Required\n() = Optional`
       )
       .addFields(
         {
