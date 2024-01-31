@@ -8,10 +8,10 @@
 
 <div align="center">
 	<h1 align="center">External Security Bot - for FiveM Communities</h1>
-	<p align="center">External Security Bot was created in January of 2024 in discord.js v14 and is meant for use by FiveM Communities who wish to manage there users with one bot, This free & open-source project is constantly being updated and is always open to contributions from other developers.</p>
-	<br>
-
- 	[Preview Video](https://youtube.com) | [Download](https://github.com/kaynegraham/external_security/releases) | [Support](https://github.com/kaynegraham/external_security/issues)
+	<p align="center">External Security Bot was created in January of 2024 in discord.js v14 and is meant for use by FiveM Communities who wish to manage there users with one bot, This free & open-source project is constantly being updated and is always open to contributions from other developers.
+	</p>
+	
+  [Preview Video](https://youtube.com) | [Report Bug](https://github.com/kaynegraham/external_security/issues) | [Download Now](https://github.com/kaynegraham/external_security/releases)
 </div>
 
 ## 🤖 Showcase
