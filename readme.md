@@ -22,9 +22,7 @@ Screenshots or videos of the External Security Bot in action:
   <summary><strong>Screenshots</strong></summary>
 <br>
 	
-</br>
 </details>
-<br /><br />
 
 ## :white_check_mark: **Features**
 
