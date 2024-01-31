@@ -26,14 +26,14 @@ Screenshots or videos of the External Security Bot in action:
 </details>
 <br /><br />
 
-:white_check_mark: **Features**
+## :white_check_mark: **Features**
 
 - No Database Required!
 - Configurable Options
 - FiveM Server/API Integration
 - Multiple Advanced Commands
 
-:hammer_and_wrench: **Installation**
+## :hammer_and_wrench: **Installation**
 1. Download Latest Version of Node.KS
 2. Download the Latest Version
 3. Configure the Bot in config.json
@@ -41,13 +41,9 @@ Screenshots or videos of the External Security Bot in action:
 5. Have Fun, Launch your Bot via runBot.bat
 
 
-**Download**
+## Download
 
 Download the latest release [here](https://github.com/kaynegraham/external_security/releases).
-
-:seedling: **Source Code**
-
-ccDiscordWrapper's source code is available on [GitHub](https://github.com/kaynegraham/external_security/releases).
 
 ## Support
 
