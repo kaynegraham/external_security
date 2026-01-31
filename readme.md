@@ -77,10 +77,9 @@ Screenshots or videos of External Bot in use:
 
 ## Project Status
 
-This project is considered **stable**.
+This project is considered stable and was last actively developed in early 2024.
 
-While it is not under active feature development, it remains functional and usable.  
-Future updates may occur as needed, but the project is primarily maintained in a completed state.
+While it still functions as intended, changes to Discord, FiveM APIs, or external dependencies may affect behaviour over time. The codebase is preserved as a complete, working system and may receive updates if required.
 
 ---
 
