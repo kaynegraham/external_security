@@ -1,3 +1,14 @@
+⚠️ External Security v1 — Archived / Legacy System
+Status: Archived (Version 1)
+
+External Security v1 is an archived legacy project and is no longer under active development.
+
+This repository represents the first iteration (v1) of the External Security Discord bot, originally built as an early learning project using Node.js and discord.js. While functional in parts, the codebase reflects an earlier stage of my development and does not represent my current standards for architecture, state management, or interaction handling.
+
+The project is intentionally preserved in its current state for reference and learning purposes.
+
+---
+
 <h4 align="center">
 	<img src="https://img.shields.io/badge/Version-v1.0.0-blue">
 	<img src="https://img.shields.io/github/last-commit/kaynegraham/external_security/main">
