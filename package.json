@@ -1,16 +1,16 @@
 {
   "name": "external_security",
   "version": "1.0.0",
-  "description": "External Security Bot for FiveM Communities, made with discord.js v14",
+  "description": "External Security Bot for FiveM Communities, made with discord.js v13",
   "main": "src/index.js",
   "author": "Kayne",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.13.4",
     "chalk": "^4.1.2",
     "cli-progress": "^3.12.0",
-    "discord.js": "^13.17.1",
+    "discord.js": "^14.25.1",
     "figlet": "^1.7.0",
-    "fivem": "^2.1.8",
     "fs": "^0.0.1-security",
     "nodemon": "^3.0.3",
     "path": "^0.12.7"

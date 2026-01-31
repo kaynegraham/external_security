@@ -33,7 +33,7 @@ module.exports = {
         {
           name: "Github Repository",
           value:
-            "[Click Here!](https://github.com/kaynegraham/external_security_bot)",
+            "[Click Here!](https://github.com/kaynegraham/external_security)",
         },
         {
           name: "Creation Date:",

@@ -33,10 +33,6 @@ module.exports = {
     member.roles.cache.map(async (role) => {
       roleIds.push(role);
     });
-    // for (const role of roles) {
-    //   roleArray.push(role.id);
-    //   console.log(role);
-    // }
 
     // Create Channel
     let investigateCategory = guild.channels.cache.find(
@@ -49,6 +45,8 @@ module.exports = {
         type: ChannelType.GuildCategory,
       });
     }
+
+    // should also say roles given in embed
 
     // Create Investigation Channel
     const channel = await guild.channels.create({

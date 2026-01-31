@@ -7,6 +7,7 @@ module.exports = {
   async execute(interaction) {
     const client = interaction.client;
     const guild = client.guilds;
+    // reduce used here, add to notes if not in already
     const memberCount = guild.cache.reduce(
       (acc, guild) => acc + guild.memberCount,
       0
@@ -19,6 +20,8 @@ module.exports = {
       channelCount = m.channels.cache.size;
       roleCount = m.roles.cache.size;
     });
+
+    // could definitely be filter?
 
     const embed = new EmbedBuilder()
       .setTitle(`${interaction.guild.name}'s statistics`)
