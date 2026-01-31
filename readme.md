@@ -6,14 +6,14 @@
 </h4>
 
 <div align="center">
-	<h1 align="center">External Bot</h1>
+	<h1 align="center">External Security Bot</h1>
 	<p align="center">
 		A Discord bot built with discord.js v14 for FiveM communities, designed to centralise moderation, automation, and server-related workflows in a single, configurable system.
 	</p>
 
 [Preview Video](https://youtube.com) ·  
-[Report an Issue](https://github.com/kaynegraham/external_bot/issues) ·  
-[Releases](https://github.com/kaynegraham/external_bot/releases)
+[Report an Issue](https://github.com/kaynegraham/external_security/issues) ·  
+[Releases](https://github.com/kaynegraham/external_security/releases)
 </div>
 
 ---
@@ -86,7 +86,7 @@ While it still functions as intended, changes to Discord, FiveM APIs, or externa
 ## Support
 
 Please use the GitHub issues page for bug reports or questions:  
-https://github.com/kaynegraham/external_bot/issues
+https://github.com/kaynegraham/external_security/issues
 
 For general enquiries, you can contact me on Discord: **devkayne**
 
