@@ -38,6 +38,8 @@ module.exports = {
       .setTimestamp()
       .setFooter({ text: `${interaction.guild.name} © 2024` });
 
+      
+
     try {
       interaction.client.guilds.cache.map(async (guild) => {
         await guild.members.unban(userid);
