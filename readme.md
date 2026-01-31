@@ -11,7 +11,6 @@
 		A Discord bot built with discord.js v14 for FiveM communities, designed to centralise moderation, automation, and server-related workflows in a single, configurable system.
 	</p>
 
-[Preview Video](https://youtube.com) ·  
 [Report an Issue](https://github.com/kaynegraham/external_security/issues) ·  
 [Releases](https://github.com/kaynegraham/external_security/releases)
 </div>
@@ -60,18 +59,6 @@ The codebase was written to be readable, extensible, and stable rather than over
 4. Configure the bot via `config.json`  
 5. Run `installBot.bat`  
 6. Start the bot using `runBot.bat`
-
----
-
-## Showcase
-
-Screenshots or videos of External Bot in use:
-
-<details>
-  <summary><strong>Screenshots</strong></summary>
-  <br>
-  <!-- Add screenshots here if desired -->
-</details>
 
 ---
 
