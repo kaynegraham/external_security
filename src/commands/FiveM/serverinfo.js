@@ -20,6 +20,7 @@ module.exports = {
 
     const statusembed = new EmbedBuilder()
       .setTitle(`${serverData.serverInfo.name} Status`)
+      .setTimestamp()
       .addFields(
         {
           name: "Map Name:",
@@ -34,6 +35,10 @@ module.exports = {
           value: `${serverData.serverInfo.maxPlayers}`,
         },
       );
+
+    if (serverStatus.degraded) {
+      statusembed.setFooter({ text: "⚠️ Degraded upstream" });
+    }
 
     try {
       await interaction.reply({

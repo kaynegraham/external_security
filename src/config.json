@@ -1,5 +1,6 @@
 {
-  "token": "",
-  "client": "",
-  "apiBase": "http://localhost:3000"
+  "token": "EXAMPLETOKEN",
+  "client": "EXAMPLECLIENT",
+  "apiBase": "http://localhost:3000",
+  "maxPlayers": 25
 }
