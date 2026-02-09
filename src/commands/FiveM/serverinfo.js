@@ -7,10 +7,40 @@ module.exports = {
     .setName("status")
     .setDescription("Get the real-time status of the FiveM Server"),
   async execute(interaction) {
-    const serverStatus = await getServerStatus(apiBase);
-    console.log(serverStatus);
-    await interaction.reply({
-      content: "meow",
-    });
+    let serverStatus, serverData;
+    try {
+      serverStatus = await getServerStatus(apiBase);
+      serverData = serverStatus.data;
+    } catch (e) {
+      return interaction.reply({
+        content: "Couldn’t reach the server API.",
+        ephemeral: true,
+      });
+    }
+
+    const statusembed = new EmbedBuilder()
+      .setTitle(`${serverData.serverInfo.name} Status`)
+      .addFields(
+        {
+          name: "Map Name:",
+          value: `${serverData.serverInfo.map}`,
+        },
+        {
+          name: "Current Player Count:",
+          value: `${serverData.serverInfo.currentPlayers}`,
+        },
+        {
+          name: "Max Player Limit:",
+          value: `${serverData.serverInfo.maxPlayers}`,
+        },
+      );
+
+    try {
+      await interaction.reply({
+        embeds: [statusembed],
+      });
+    } catch (e) {
+      console.error(e);
+    }
   },
 };
