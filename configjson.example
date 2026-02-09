@@ -1,0 +1,6 @@
+{
+  "token": "Bot Token",
+  "client": "Application ID",
+  "apiBase": "http://localhost:3000", 
+  "maxPlayers": 25 // Reccomended Max 25 due to discord's 1024 char limit
+}
