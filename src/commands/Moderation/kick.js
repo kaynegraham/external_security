@@ -9,13 +9,13 @@ module.exports = {
     .setName("kick")
     .setDescription("Kick user from this guild.")
     .addUserOption((option) =>
-      option.setName("user").setDescription("User to Kick").setRequired(true)
+      option.setName("user").setDescription("User to Kick").setRequired(true),
     )
     .addStringOption((option) =>
       option
         .setName("reason")
         .setDescription("Reason for Kicking User")
-        .setRequired(true)
+        .setRequired(true),
     ),
   async execute(interaction) {
     try {
@@ -46,7 +46,7 @@ module.exports = {
             value: interaction.user.displayName,
             inline: true,
           },
-          { name: "Reason", value: reason, inline: true }
+          { name: "Reason", value: reason, inline: true },
         )
         .setThumbnail(user.displayAvatarURL())
         .setFooter({ text: `${interaction.guild.name} © 2024` })
@@ -68,11 +68,11 @@ module.exports = {
             name: "Moderator",
             value: interaction.user.displayName,
             inline: true,
-          }
+          },
         );
 
       // Message User
-      await user.send({ embeds: [dmembed] }).then(async () => {
+      user.send({ embeds: [dmembed] }).then(async () => {
         await user.kick(reason);
         await interaction.reply({ embeds: [kickembed], ephemeral: true });
       });

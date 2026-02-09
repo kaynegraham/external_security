@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "External Security Bot for FiveM Communities, made with discord.js v13",
   "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
   "author": "Kayne",
   "license": "ISC",
   "dependencies": {
@@ -12,7 +15,7 @@
     "discord.js": "^14.25.1",
     "figlet": "^1.7.0",
     "fs": "^0.0.1-security",
-    "nodemon": "^3.0.3",
+    "nodemon": "^3.1.11",
     "path": "^0.12.7",
     "undici": "^7.19.2"
   }
