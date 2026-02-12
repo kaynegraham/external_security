@@ -4,7 +4,9 @@
   "description": "External Security Bot for FiveM Communities, made with discord.js v13",
   "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "deploy": "node src/deploy.js",
+    "start": "node src/index.js"
   },
   "author": "Kayne",
   "license": "ISC",
