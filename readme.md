@@ -1,4 +1,4 @@
-### ⚠️ External Security v1 — Archived / Legacy System
+### ⚠️ External Security v1 — Archived / Legacy System (With FiveM Integration)
 ### Status: Archived (Version 1)
 
 ### External Security v1 is an archived legacy project and is no longer under active development.
