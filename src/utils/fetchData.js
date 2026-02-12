@@ -7,3 +7,10 @@ export async function getServerStatus(apiBase) {
 
   return res.json();
 }
+
+//   —— Discord Bot Token —————————————————————————————————
+// remote:        locations:
+// remote:          - commit: 470838b19dae516e2ed37012e5912feebb04b592
+// remote:            path: src/config.json:2
+// remote:          - commit: aa8be2a6f129596185113237659a524fc4cdfab3
+// remote:            path: src/config.json:2
